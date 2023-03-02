@@ -66,3 +66,34 @@ qplot(x)
 # 퀴즈
 score = c(80, 60, 70, 50, 90)
 meanscore = mean(score)
+
+# 중간에 넣기
+
+
+# exam 데이터 파악하기
+
+exam <- read.csv("csv_exam.csv")
+head(exam)
+head(exam, 10)
+
+tail(exam)
+tail(exam, 10)
+
+View(exam)
+
+dim(exam)
+
+str(exam)
+
+summary(exam)
+
+# mpg 데이터 파악하기
+install.packages("ggplot2")
+mpg <- as.data.frame(ggplot2::mpg)
+
+head(mpg)
+tail(mpg)
+View(mpg)
+dim(mpg)
+str(mpg)
+summary(mpg)
