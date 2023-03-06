@@ -1,4 +1,4 @@
-#인구가 가장 많은 종교 5개별 성별 비교
+#성별에 따른 종교유무 구하기
 library(foreign)
 library(dplyr)
 library(ggplot2)
