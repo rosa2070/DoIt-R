@@ -104,7 +104,7 @@ num1 <- sample(nrow(temp), nrow(diamonds)*.3)
 train <- diamonds[num,]
 temp <- diamonds[-num,]
 val <- temp[num1,]
-test <- temp[-num,]
+test <- temp[-num1,]
 
 nrow(train)
 nrow(val)
